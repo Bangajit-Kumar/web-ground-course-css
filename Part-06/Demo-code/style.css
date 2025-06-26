@@ -1,0 +1,42 @@
+p,h1,h2,h3,h4 {
+    font-family: sans-serif;
+}
+
+
+h4 {
+    color: blue;
+}
+#heading-three-1 {
+    color: red;
+}
+#heading-three-2 {
+    color: blue;
+}
+#heading-three-3 {
+    color: red;
+}
+.group {
+    color: blueviolet;
+}
+p[title="hello"] {
+    color: red;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+h3 {
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+}
+div p {
+    color: blue;
+}
+.para-1 p {
+    color: crimson;
+}
+section.one ul li {
+    color: blue;
+}
