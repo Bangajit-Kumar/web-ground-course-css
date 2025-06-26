@@ -1,0 +1,29 @@
+h4 {
+    color: blue;
+}
+#heading-three-1 {
+    color: red;
+}
+#heading-three-2 {
+    color: blue;
+}
+#heading-three-3 {
+    color: red;
+}
+.group {
+    color: blueviolet;
+}
+p[title="hello"] {
+    color: red;
+}
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+h3 {
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+}
