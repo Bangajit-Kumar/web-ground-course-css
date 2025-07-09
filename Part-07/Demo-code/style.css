@@ -1,0 +1,7 @@
+.list li {
+    font-weight: bold;
+    font-style: italic;
+}
+.list {
+    list-style: none;
+}
