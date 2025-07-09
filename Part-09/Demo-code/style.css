@@ -1,0 +1,18 @@
+.list-item {
+    font-style: italic;
+}
+li:last-child {
+    font-weight: bold;
+}
+li:nth-child(3) {
+    color: #f50f07de;
+}
+li:nth-child(even) {
+    background-color: #ed04f5bd;
+}
+li:nth-child(odd) {
+    background-color: #084d9b;
+}
+section p:first-child {
+    color: red;
+}
