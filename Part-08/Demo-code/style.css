@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(255, 0, 0);
+    background-color: rgba(93, 243, 6, 0.616);
+}
+
+h2 {
+    color: #000;
+    background-color: #9f09f5a4;
+}
+
+h3 {
+    color: rgba(0, 0, 255, 0.5);
+    border-top: 5px solid #05edf59d;
+    border-bottom: 5px solid #f505399d;
+    border-left: 5px solid #71f5059d;
+    border-right: 5px solid #1d05f59d;
+}
+
+.h-2 {
+    color: rgba(143, 5, 156, 0.596);
+}
