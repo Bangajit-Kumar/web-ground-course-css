@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    color: #6d6b6b;
+    border-top: 2px solid red;
+}
+p {
+    text-transform: uppercase;
+}
+a {
+    font-style: italic;
+}
+a:link {
+    color: #6d6b6b;
+}
+.one h2 {
+    color: #56b607;
+}
