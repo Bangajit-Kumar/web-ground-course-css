@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+.product-area {
+    border: 5px solid black; 
+}
+.product-area .Product-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.product-area .product-price strong {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.shipping-details {
+    font-weight: bold;
+    font-size: 18px;
+    color: #faf6f6;
+    background-color: #384af1;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.product-area .product-info ul {
+    list-style: circle;
+    font-weight: bold;
+    color: #384af1;
+}
+.product-area .product-buy a,
+.product-area .product-buy a:link,
+.product-area .product-buy a:hover,
+.product-area .product-buy a:visited,
+.product-area .product-buy a:active {
+    text-decoration: none;
+    color: #fff;
+    background: #4dbd0c;
+}
