@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>class 40</title>
+        <style>
+            .container {
+                background-color: rgb(150, 142, 142);
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 50px;
+                /* gap: 180px; */
+            }
+            /* .container div {
+                height: 40px;
+            } */
+            .one {
+                background: tomato;
+                font-weight: bold;
+                padding: 10px;
+                align-self: flex-start;
+                /* order: 1; */
+            }
+            .two {
+                background: yellow;
+                /* height: 240px; */
+                font-weight: bold;
+                padding: 10px;
+            }
+
+            .four {
+                background: rgb(0, 255, 195);
+                font-weight: bold;
+                padding: 10px;
+                align-self: flex-end;
+                /* order: -1; */
+            }
+
+            /*
+            flex-grow: 0;
+            flex-shrink:1;
+            flex-basis:auto;
+            flex: 0 1 auto;
+            
+            */
+
+            .fl-item {
+                /* flex-basis: 280px; */
+                /* flex-shrink: 1; */
+                /* flex-grow: 1; */
+                flex: 1;
+            }
+
+            .three {
+                background: blue;
+                font-weight: bold;
+                padding: 10px;
+                /* flex-grow: 2; */
+            }
+            /*
+                
+
+            */
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="one fl-item">Hello One Two Three Four</div>
+            <div class="two fl-item">Hello Two</div>
+            <div class="three fl-item">Hello Three</div>
+            <div class="four fl-item">Hello Four</div>
+        </div>
+    </body>
+</html>
