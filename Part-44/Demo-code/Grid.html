@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid-Class-44</title>
+
+        <style>
+            .container {
+                background-color: rgb(215, 212, 212);
+                display: grid;
+                /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+                grid-template-columns: repeat(4, 1fr);
+                /* grid-template-rows: 150px 200px; */
+                grid-template-rows: 3fr 1fr;
+                /* gap: 10px; */
+                column-gap: 30px;
+                row-gap: 30px;
+                height: 500px;
+            }
+            .elm {
+                font-size: 20px;
+            }
+            .eml-1 {
+                background-color: blueviolet;
+            }
+            .eml-2 {
+                background-color: rgb(43, 226, 165);
+            }
+            .eml-3 {
+                background-color: rgb(226, 202, 43);
+            }
+            .eml-4 {
+                background-color: rgb(226, 43, 214);
+            }
+            .eml-5 {
+                background-color: rgb(226, 83, 43);
+            }
+            .eml-6 {
+                background-color: rgb(226, 165, 226);
+            }
+            .eml-7 {
+                background-color: rgb(147, 226, 43);
+            }
+            .eml-8 {
+                background-color: rgb(199, 251, 30);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="eml-1 elm">Elem 1</div>
+            <div class="eml-2 elm">Elem 2</div>
+            <div class="eml-3 elm">Elem 3</div>
+            <div class="eml-4 elm">Elem 4</div>
+            <div class="eml-5 elm">Elem 5</div>
+            <div class="eml-6 elm">Elem 6</div>
+            <div class="eml-7 elm">Elem 7 <br />Test</div>
+            <div class="eml-8 elm">Elem 8</div>
+        </div>
+    </body>
+</html>
